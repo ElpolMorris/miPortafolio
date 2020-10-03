@@ -1,0 +1,24 @@
+
+:root {
+    --acqua: #69dc9e;
+    --white: #fff;
+    --black: #0C0C0C;
+    --sinop: #BA5A31;
+    --purpl: #7d5ba6;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.navbar {    
+    background: var(--acqua);
+}
+.textoNegro{
+    color: var(--black) ;
+}
+.textoNegro:hover{
+    color: var(--purpl);
+}
