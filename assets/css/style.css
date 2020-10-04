@@ -41,4 +41,8 @@ header {
     text-align: center;
     /*animacion*/
 }
+img {
+    width: 5rem;
+    height: 5rem;
+}
 
