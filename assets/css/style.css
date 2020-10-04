@@ -41,6 +41,7 @@ header {
     box-shadow: inset -0.5rem -0.5rem 0 0  var(--acqua);    
     padding: 0.5rem;    
     text-align: center;
+    height: 8rem;
     /*animacion*/
 }
 .progress{
@@ -50,6 +51,10 @@ header {
     background: var(--slver);
     border: 3px solid var(--black);
     color: var(--black);
+}
+.html-log{
+    width: 2rem;
+    height: 2rem;
 }
 img {
     width: 5rem;
