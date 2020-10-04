@@ -5,6 +5,8 @@
     --black: #0C0C0C;
     --slpnk: #c9ada7;
     --purpl: #7d5ba6;
+    --slver: #c7c7c7;
+    --blue: #63d2ff;
 }
 * {
     margin: 0;
@@ -45,4 +47,8 @@ img {
     width: 5rem;
     height: 5rem;
 }
+.img-mod{
+    width: 100%;;
+}
+
 
