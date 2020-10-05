@@ -1,8 +1,8 @@
 Pendiente
-1-revisar componentes bootstrap con js
-2-revisar componentes bootstrap sin js
+1-revisar componentes bootstrap con js (modal, tooltip)
+2-revisar componentes bootstrap sin js (card, jumbotron, badge, progressBar)
 3-barra navegacion que te lleve a distintos puntos de la página -ok
 4-smooth scroll -ok
 5-colocar direccion rrss -ok
 6-revisar titulos y subtitulos por sección
-7-hacer algo con js
+7-hacer algo con js (programacion jumbotron)

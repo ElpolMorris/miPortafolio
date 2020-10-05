@@ -17,4 +17,5 @@ $(document).ready(function () {
             $(".jumbotron").fadeIn(1500);
         },3000);        
     })
+    
 });
