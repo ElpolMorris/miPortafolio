@@ -17,7 +17,8 @@
     font-family: 'Geostar', cursive;
 }
 body{
-    background: var(--blues);
+    background-image: url('../img/ekoTDPP6.png');
+    background-repeat: repeat;
 }
 .container {
     background: white;
@@ -75,6 +76,7 @@ img {
     width: 5rem;
     height: 5rem;
 }
+
 .img-mod{
     width: 100%;;
 }
