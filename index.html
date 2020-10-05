@@ -28,16 +28,16 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav ">
                 <li class="nav-item active">
-                    <a class="nav-link textoNegro" href="#">Sobre Mí <span class="sr-only">(current)</span></a>
+                    <a class="nav-link textoNegro" href="#sobreMi">Sobre Mí <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link textoNegro" href="#cards">Experiencias</a>
+                    <a class="nav-link textoNegro" href="#miExp">Experiencias</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link textoNegro" href="#cards">Trabajos</a>
+                    <a class="nav-link textoNegro" href="#miTrab">Trabajos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link textoNegro" href="#">Contacto</a>
+                    <a class="nav-link textoNegro" href="#miCont">Contacto</a>
                 </li>                    
             </ul>
         </div>        
@@ -51,9 +51,15 @@
                     <h2 class="vista col-12">Desarrollador Web</h2>
                 </div>
             </div>
-        </header>       
+        </header>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h2 class="display-4">Muchas Gracias</h2>
+                <p class="lead">Obtendrás una respuesta a brevedad</p>
+            </div>
+        </div>       
         <!--Reseña personal-->
-        <section id='#sobreMi' class="row  justify-content-center d-none d-sm-block">
+        <section id="sobreMi" class="row  justify-content-center d-none d-sm-block">
             <h2 class="col-12 text-center">SobreMí</h2>
             <div class="col-12 row">
                 <p class="col-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia repudiandae explicabo neque eaque nihil aut deserunt corporis deleniti nobis rem. Voluptatem repellendus aut, nihil necessitatibus provident quod reprehenderit aspernatur odit.</p>
@@ -86,7 +92,7 @@
                 </div>
                 <!--titulo habilidad3-->
                 <div class="col-12 row pt-5 justify-content-around">
-                    <h3 class="col-8">Maquetación Web</h3>
+                    <h3 class="col-6">Maquetación Web</h3>
                     <img src="/assets/svg/HTML5_logo_and_wordmark.svg" alt="" class="html-log">
                     <img src="/assets/svg/CSS3_logo_and_wordmark.svg" alt="" class="html-log">             
                     
@@ -264,10 +270,11 @@
         </section>
         <!--contacto-->
         <section id="miCont" class="text-center mt-5 justify-content-center">        
-            <a class="typeform-share button vistaBox" href="https://form.typeform.com/to/KoKIa60s" data-mode="popup"
+            <a id="btn-cont" class="typeform-share button vistaBox" href="https://form.typeform.com/to/KoKIa60s" data-mode="popup"
                 style="display:inline-block;text-decoration:none;background-color:#c7c7c7;color:#0C0C0C;cursor:pointer;font-family:'Press Start 2P', cursive, monospace;font-size:20px;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 33px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;"
                 target="_blank">Contáctame </a>
             <script> (function () { var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement, gt = d.getElementsByTagName, id = "typef_orm_share", b = "https://embed.typeform.com/"; if (!gi.call(d, id)) { js = ce.call(d, "script"); js.id = id; js.src = b + "embed.js"; q = gt.call(d, "script")[0]; q.parentNode.insertBefore(js, q) } })() </script>
+            
         </section>
         <!--Footer-->
         <footer class="row justify-content-center">
